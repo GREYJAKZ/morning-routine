@@ -1,14 +1,23 @@
 def print_morning():
-
+    
     print("Step 1 - Turn off the alarm")
-    print("Step 2 - Open my eyes")
+    x = input()
+    print("Step 2 - Open my " + x)
+    x = input()
     print("Step 3 - Sit up in my bed")
+    x = input()
     print("Step 4 - Stand up")
+    x = input()
     print("Step 5 - Walk in to the bathroom")
+    x = input()
     print("Step 6 - Use the toilet")
+    x = input()
     print("Step 7 - Flush the toilet")
+    x = input()
     print("Step 8 - Wash my hands")
+    x = input()
     print("Step 9 - Use the towel")
+    x = input()
     print("Step 10 - Brush my teeth")
 
 print_morning()
