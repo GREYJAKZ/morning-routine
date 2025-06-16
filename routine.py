@@ -1,23 +1,12 @@
 def print_morning():
     
-    print("Step 1 - Turn off the alarm")
-    x = input()
-    print("Step 2 - Open my " + x)
-    x = input()
-    print("Step 3 - Sit up in my bed")
-    x = input()
-    print("Step 4 - Stand up")
-    x = input()
-    print("Step 5 - Walk in to the bathroom")
-    x = input()
-    print("Step 6 - Use the toilet")
-    x = input()
-    print("Step 7 - Flush the toilet")
-    x = input()
-    print("Step 8 - Wash my hands")
-    x = input()
-    print("Step 9 - Use the towel")
-    x = input()
-    print("Step 10 - Brush my teeth")
+    events = ["Turn off the alarm", "Open my eyes", "Sit up in my bed", "Stand up", 
+              "Walk in to the bathroom", "Use the toilet", "Flush the toilet",
+              "Wash my hands", "Use the towel"]
+    
+    for event in events:
+        number = 1
+        print("Step " + str(number) + " " + event)
+        number = number + 1
 
 print_morning()
