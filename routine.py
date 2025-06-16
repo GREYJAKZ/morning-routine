@@ -4,8 +4,10 @@ def print_morning():
               "Walk in to the bathroom", "Use the toilet", "Flush the toilet",
               "Wash my hands", "Use the towel"]
     
+    number = 1
+
     for event in events:
-        number = 1
+        x = input()
         print("Step " + str(number) + " " + event)
         number = number + 1
 
